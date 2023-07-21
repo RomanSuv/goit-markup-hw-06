@@ -63,17 +63,7 @@ a{
     text-decoration: none;
     text-transform: uppercase;
 }
-.logo-right{
-    font-family: "Raleway", sans-serif;
-    color: var(--logo-color);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 76px;
-    display: inline-block;
-}
+
 .link{
     text-decoration: none;
 }
@@ -157,13 +147,252 @@ a{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
+
+
+
+
+/* ФУТТЕР */
+.media{
+    color:#FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    height: 24px;
+    color:var(--back-body);
+    margin-bottom: 16px;
+    margin-top: 0;
+   
+    text-align: center;
+}
+@media only screen and (min-width: 1158px) {
+   {
+    text-align: left;
+  }
+}
 .end-text{
     color: #F4F4FD;
     line-height: 1.5;
     background-color: #2E2F42;
     letter-spacing: 1.5;
     padding: 100px 0;
+   
+    
 }
+.divv{
+    display: block;
+}
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
+@media only screen and (min-width: 1158px) {
+    .end-text{
+        color: #F4F4FD;
+        line-height: 1.5;
+        background-color: #2E2F42;
+        letter-spacing: 1.5;
+        padding: 100px 0;
+  }
+}
+.end-logo{
+    color: #f4f4fd;
+}
+.end-par{
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 264px;
+margin: 0 auto;
+}
+.foot-title{
+    width: 208;
+}
+.foor-social{
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+     */
+}
+@media only screen and (min-width: 1158px) {
+    .foor-social{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center; 
+    
+  }
+}
+.mar-div{
+    margin-bottom: 72px;
+    /* margin-right: 120px; */
+    /* margin: 136px auto; */
+    
+}
+@media only screen and (max-width: 768px) {
+    .soc-cont{
+        margin-bottom: 72px;
+    }
+    }
+
+.end-social{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+}
+@media only screen and (max-width: 768px) {
+    .end-social{
+    margin-bottom: 72px;
+  }
+}
+
+    
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
+.end-icon{
+    width: 40px;
+    height: 40px;
+}
+.end-link{
+    width: 100%;
+    height: 100%;
+    background-color: var(--buttom);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+    .end-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--buttom);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.end-link:hover{
+    background-color: #31d0aa;
+}
+.end-link:focus{
+    background-color: #31d0aa;
+}
+.end-fi{
+    fill: var(--back-buttom)
+}
+
+.logo-right{
+    font-family: "Raleway", sans-serif;
+    color: var(--logo-color);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+    display: block;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+
+/* Поля вводу  Футер*/
+.form-p{
+    color: var(--form, #FFF);
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    padding-left: 80px;
+    }
+    @media only screen and (max-width: 768px) {
+        .form-p{
+        text-align: center;
+      }
+    }
+    .form-footer{
+        /* display: flex;
+    padding-left: 80px;
+    gap: 24px; */
+    
+    }
+    @media only screen and (max-width: 768px) {
+       .form-footer{
+        flex-direction: column;
+        align-items: center;
+        width: 398px;
+        margin;
+      }
+    }
+    .form-but{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px; 
+    border-radius: 4px;
+    border: none;
+    background: var(--social, #4D5AE5);
+    color: var(--form, #FFF);
+    text-align: center;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    fill: #FFFFFF;
+    margin: 0 auto;
+    }
+    .plane{
+        margin-left: 16px;
+    }
+    .form-input{
+        font-size: 12px;
+        line-height: 1.5; 
+        letter-spacing: 0.04em;
+        color: #ffffff; 
+        width: 100%;
+    height: 40px;
+    padding-left: 16px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--form, #FFF);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: transparent;
+    }
+    .form-input::placeholder{
+        color: #ffffff ;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    }
+    .form-div{
+    
+    }
+/* =======================*/
+
 
 
 .title-second{
@@ -177,6 +406,12 @@ a{
     margin-bottom: 72px; 
    
 }
+
+
+
+
+
+
 /*!!!! Перша секція !!!!*/
 .first-section{
    background-color: var(--first);
@@ -279,16 +514,10 @@ margin-bottom: 77px;
    background-color: #F4F4FD;
 padding: 120px 0;
 }
-.end-logo{
-    color: #f4f4fd;
-}
-.end-par{
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    max-width: 264px;
-    margin-top: 0;
-}
+
+
 .team-li{
+    text-align: center; 
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
 border-radius: 0px 0px 4px 4px;
@@ -299,17 +528,41 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     padding: 24px 0;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+
+
+
+
+
 /* ХЕДДЕР */
 .page-head{
     display: flex;
     align-items: center;
+    
 }
 .fl-menu{
     display: flex;
     gap: 40px;
 }
+.fl-menu-contact{
+    display: flex;
+    gap: 40px;
+}
+@media only screen and (min-width: 768px) {
+    .fl-menu-contact{
+        display: flex;
+        flex-direction: column;
+        /* gap: 40px; */
+        row-gap: 12px;
+        margin-left: 121px;
+        margin-right: 16px;
+    }
+}
 @media only screen and (max-width: 768px) {
    .fl-menu{
+    display: none;
+  }
+  .fl-menu-contact{
     display: none;
   }
 }
@@ -322,25 +575,27 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     stroke: #2E2F42;
 }
 
-
+.container.page-head{
+    margin: 25px 16px ;
+}
 .container{
     min-width: 320px;
     max-width: 428px;
     margin: 0 auto;
-    padding-left: 0 15px;
+    
 }
 @media only screen and (min-width: 768px) {
-   {
+   
     .container{
 min-width: 768px;
     }
   }
   @media only screen and (min-width: 1158px) {
-     {
+    .container {
       min-width: 1158px;
     }
   }
-}
+
 .page-nav{
     display: flex;
     align-items: center;
@@ -375,11 +630,15 @@ gap: 24px;
     align-items: center;
     padding-top: 72px;
     gap: 24px;   
+
     
 }
 @media only screen and (min-width: 768px) {
   .our-pic {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -392,6 +651,13 @@ gap: 24px;
 .strategy{
     padding: 120px 0;
 }
+
+
+
+
+
+
+
 /* ТРЕТЯ СЕКЦІЯ */
 .do-list{
     display: none;
@@ -403,6 +669,7 @@ gap: 24px;
 }
 .strategy-title{
     margin-bottom: 8px;
+    text-align: center;
 }
 .tehnik{
    width: calc((100% - 48px) / 3);
@@ -418,7 +685,7 @@ gap: 24px;
         font-size: 20px;
         line-height: 1.2;
         color: var(--text-menu);
-        margin: 0;
+        margin-bottom: 8px;
 }
 .name-job{
     text-align: center;
@@ -526,6 +793,10 @@ transform: translateY(0%);
     pointer-events: none;
 }
 /* ДРУГА СЕКЦІЯ */
+
+.strategy{
+    padding: 120px 0;
+}
 .prioritet{
 display: flex;
 flex-direction: column;
@@ -534,6 +805,14 @@ align-items: center ;
 
     
 }
+@media only screen and (min-width: 768px) {
+   .prioritet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 @media only screen and (min-width: 1158px) {
     .prioritet{
     display: flex;
@@ -541,9 +820,9 @@ align-items: center ;
     padding: 0 auto;
   }
 }
-.set{
+/* .set{
     text-align: center;   
-}
+} */
 @media only screen and (min-width: 768px) {
    .set{
     width: calc((100% - 16px) / 2);
@@ -605,6 +884,7 @@ letter-spacing: 0.32px;
     display:flex;
     gap: 24px;
     justify-content: center;
+    margin-top:8px;
     
 }
 .social-u{
@@ -623,8 +903,8 @@ letter-spacing: 0.32px;
     display: flex;
 flex-wrap: wrap;
 justify-content: center;
-gap: 16px;
-padding-bottom: 96px; 
+gap: 72px 16px;
+/* padding-bottom: 96px;  */
     
 }
 @media only screen and (min-width: 1158px) {
@@ -638,7 +918,7 @@ padding-bottom: 96px;
 }
 .icon-costum{
     
-    width: calc((100% - 16px) / 2);
+    /* width: calc((100% - 16px) / 2); */
     height: 88px;
     
     border-radius: 4px;
@@ -647,6 +927,11 @@ padding-bottom: 96px;
 flex-direction: column;
     align-items: center;    
     
+}
+@media only screen and (max-width: 768px) {
+    .icon-costum  {
+    width: 190px;
+  }
 }
 @media only screen and (min-width: 768px) {
     .icon-costum{
@@ -707,6 +992,12 @@ flex-direction: column;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+@media only screen and (min-width: 1158px) {
+    .five{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+}
 .five-title{
         color: var(--navyblue);
         text-align: center;
@@ -719,59 +1010,8 @@ flex-direction: column;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-.media{
-        color:#FFF;
-        font-size: 16px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
-        height: 24px;
-        color:var(--back-body);
-        margin-bottom: 16px;
-        margin-top: 0;
-        
-    }
-.foot-title{
-    width: 208;
-}
-.foor-social{
-    align-items: baseline;
-    display: flex;
-}
-.mar-div{
-    margin-right: 120px;
-}
-.end-social{
-    display: flex;
-    gap: 16px;
 
-}
-.end-icon{
-    width: 40px;
-    height: 40px;
-}
-.end-link{
-    width: 100%;
-    height: 100%;
-    background-color: var(--buttom);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.end-link:hover{
-    background-color: #31d0aa;
-}
-.end-link:focus{
-    background-color: #31d0aa;
-}
-.end-fi{
-    fill: var(--back-buttom)
-}
+
 .window{
     padding: 72px 24px 24px 24px;
     position: fixed;
@@ -849,74 +1089,13 @@ flex-direction: column;
     fill: #ffffff;
 }   
 
-/* Поля вводу  Футер*/
-.form-p{
-color: var(--form, #FFF);
 
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-margin-bottom: 16px;
-padding-left: 80px;
-}
-.form-footer{
-    display: flex;
-padding-left: 80px;
-gap: 24px;
-}
-.form-but{
-display: flex;
-padding: 8px 24px;
-justify-content: center;
-align-items: center;
-min-width: 165px;
-height: 40px; 
-border-radius: 4px;
-border: none;
-background: var(--social, #4D5AE5);
-color: var(--form, #FFF);
-text-align: center;
-cursor: pointer;
-font-family: Roboto, sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-fill: #FFFFFF;
-}
-.plane{
-    margin-left: 16px;
-}
-.form-input{
-    font-size: 12px;
-    line-height: 1.5; 
-    letter-spacing: 0.04em;
-    color: #ffffff; 
-    width: 264px;
-height: 40px;
-padding-left: 16px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid var(--form, #FFF);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-background-color: transparent;
-}
-.form-input::placeholder{
-    color: #ffffff ;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.48px;
-}
-.form-div{
 
-}
+
+
+
+
+
 /* Форма модального вікна */
 .form-p-modal{
     display: flex;
@@ -953,9 +1132,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .form-label{
-    margin-bottom: 4px;
+    margin-bottom: 16px;
     color: var(--lightslate, #8E8F99);
     display: block; 
+    width: 100%;
 /* Small Text */
 font-family: Roboto;
 font-size: 12px;
@@ -1102,7 +1282,11 @@ flex-direction: column;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
-  
+  @media only screen and (min-width: 768px) {
+    .menu-container{
+      display: none;
+    }
+  }
   .menu-container.is-open {
     transform: translateX(0);
   }
