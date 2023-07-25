@@ -495,7 +495,49 @@ margin: 0 auto;
         rgba(46, 47, 66, 0.7)), url(./images/mobile/mob-bg@2x.jpg);
   }
 }
-@media (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+
+@media only screen and (min-width: 428px) {
+   .first-section{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../images/tab/tabbg@1x.jpg);    
+  }
+
+  @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .first-section{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../images/tab/tabbg@2x.jpg);
+    }
+}
+}
+@media only screen and (min-width: 769px) {
+    .first-section{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../images/dask/people-office@1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+   (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .first-section{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../images/dask/people-office@2x.jpg);
+    }
+}
+}
+
+
+@media only screen and (min-width: 1158px) {
+   .hero{
+    padding: 188px 0;    
+  }
+}
+/* @media (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
     .first-section{
         background-image:linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
@@ -520,7 +562,7 @@ margin: 0 auto;
        rgba(46, 47, 66, 0.7)), url(../images/dask/people-office@2x.jpg) ;
      }
     }
-    
+     */
   
 }
 .first-section .title{  
